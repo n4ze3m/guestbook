@@ -1,0 +1,42 @@
+body {
+    background-image: url("/assets/bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+}
+
+/*  */
+.fire-animation {
+    background-image: url("/assets/fire.gif");
+    background-repeat: no-repeat;
+    
+}
+
+.duck-animation {
+    background-image: url("/assets/duck.gif");
+    background-repeat: no-repeat;
+    height: 42px;
+    width: 100%;
+}
+
+.avatar {
+    background-image: url("/assets/user.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 42px;
+    width: 42px;
+}
